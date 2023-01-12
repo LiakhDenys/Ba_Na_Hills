@@ -42,3 +42,11 @@ overflow: hidden;
     transition-duration: 0.4s;
     transition-timing-function:linear;
 }
+@media screen and (max-width:667px){
+    .video__link iframe:hover{
+        content: "";
+        transform: scale(0);
+        transition-duration: 0.4s;
+        transition-timing-function:linear;
+}
+}
