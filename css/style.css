@@ -1,0 +1,46 @@
+body{
+    max-width: 100%;
+    min-height: 100% ;
+    background-image: url(../img/bg-full.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+header{ 
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main{
+column-count: 3;
+column-span: all;
+column-gap: 5px;
+padding: 15px;
+padding-bottom: 300px;
+}
+
+@media screen and (max-width: 998px){
+    .video__container{
+        max-width: 300px;
+    }
+    main{
+        columns: 2;
+    }
+}
+@media screen and (max-width:667px){
+    .video__container{
+        margin: 0 auto;
+    }
+    main {
+        columns: 1;
+    }
+    
+}
+
+
+
+
